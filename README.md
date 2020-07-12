@@ -3,17 +3,6 @@
 This repository contains the code for the CLI03_Wisely team. The focuse of the code is a proof-of-concept for
 the main functionality of our app **Wisely**.
 
-All code was written in Jupyter Notebooks which allow to easily explore the code and the results directory here in GitHub, without 
-the need to install anything. If you would like to play around with the notebooks and execute them yourself, the following dependencies are required (versions used by us in brackets):
-
-* python (3.6)
-* pandas (0.24.0)
-* numpy (1.18.5)
-* matplotlib (3.2.2)
-* scikit-learn (0.23.1)
-* seaborn (0.10.1)
-* nb_conda (2.2.2)
-
 
 # Notebooks
 The following notebooks should be regarded as our project demo.
@@ -27,6 +16,31 @@ for that date.
 ### Wisely_household_data_analysis.ipynb
 This notebook contains our analysis of residential household appliance usage. Here we show how dishwashers and washinc machines
 are mainly run during sub-optimal times with regards to renewable energy generation.
+
+
+### Wisely_performance_evaluation.ipynb
+Here we do some performance evaluation of the Wisely prediction models, to see how good the prototype model works.
+
+### Wisely_regional_energy_generation.ipynb
+In this notebook we look into different energy source (hydro, wind, solar) and how their distributions varies across different regions
+in Germany.
+
+# Software version
+All code was written in Jupyter Notebooks which allow to easily explore the code and the results directory here in GitHub, without 
+the need to install anything. If you would like to play around with the notebooks and execute them yourself, the following dependencies are required (versions used by us in brackets):
+
+* python (3.6)
+* pandas (0.24.0)
+* numpy (1.18.5)
+* matplotlib (3.2.2)
+* scikit-learn (0.23.1)
+* seaborn (0.10.1)
+* nb_conda (2.2.2)
+* geopandas (0.6.1)
+* cartopy (0.17.0)
+* shapely (1.7.0)
+
+You will also have to download the datasets for execution (see below).
 
 # Datasets
 We have used the following datasets from the Open Power System Data platform.
